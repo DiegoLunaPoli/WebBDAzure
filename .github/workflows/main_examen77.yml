@@ -63,4 +63,7 @@ jobs:
           app-name: 'Examen77'
           slot-name: 'Production'
           package: '*.jar'
-          
+
+
+      - name: Build with Maven
+        run: mvn clean package -DskipTests
